@@ -81,6 +81,7 @@ div{
 	padding-top: 1.5em;
 	font-family: 'Satisfy', cursive;
 	color: rgb(61, 19, 25);
+	margin-bottom: 5em;
 	/*text-align: center;*/
 }
 
@@ -89,9 +90,10 @@ div{
 }
 .blocmenu3{
 	/*font-size: 4em;*/
-	display: flex;
+	/*display: flex;*/
 	justify-content: space-between;
 	font-size: 1.4em;
+
 }
 
 #h2menu3{
@@ -109,29 +111,25 @@ div{
 	transform: rotateY(3.142rad);
 	/*transform-origin: 52% 58%;*/
 }
-/*.color3{
-	color: rgb(165, 103, 153);
-}
-.color3{
-	color: rgb(110, 76, 204);
-}*/
+
 .h3menu3__underline{
 	background:linear-gradient(to top, rgba(93, 162, 240, 0.5) 0%, rgba(110, 76, 204,0.5) 3px, transparent 3px) no-repeat;
 	background-size:0 100%;
-	transition:background-size .1s;
+	transition:background-size .4s;
 }
 .h3menu3__underline:hover{
 	background-size: 100% 100%;
 } 
-.ulmenu3{
-	list-style: none;
-	display: flex;
-	flex-direction: row;
+.plat--texte{
+float: left; width:80%;
 }
-.prix{
+.plat--prix{
 	font-weight: bold;
 	margin-right: 1em;
+	float: right; width:10%; text-align: right;
 }
+
+
 .logofin{
 	flex-direction: row;
 	justify-content: center;
