@@ -1,0 +1,133 @@
+/* ---------------- header & footer ------------------------------ */
+
+header{
+	background-color: rgb(87, 156, 135);
+	color: rgb(253, 203, 70);
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	width:50%;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	justify-content: space-between;
+	background-color: rgb(87, 156, 135);
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.4em;
+	width:47.1%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-left: 25%;
+}
+a{
+		text-decoration: none;
+		color: rgb(253, 203, 70);
+	}
+.footer__mention{
+	text-align: start;
+	/*padding-left: 1rem;*/
+}
+.footer__contact{
+	display: inline;
+	/*text-align: end*/;
+	/*padding-left: 17em;
+	padding-right: 1rem;*/
+}
+.btn:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+/* ------------- menu2 ----------------- */
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+   	margin-top: 1.3em;
+   	margin-left:-3em;
+}
+div{
+	margin:0.5em;
+}
+#menu4{
+	width:50%;
+	margin:auto;
+	padding-top: 1.5em;
+	font-family: 'Satisfy', cursive;
+	color: rgb(61, 19, 25);
+	/*text-align: center;*/
+}
+
+.blocmenu4{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.3em;
+}
+
+#h2menu4{
+	font-size: 4em;
+	text-align: center;
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, green, greenyellow);
+}
+.h3menu4{
+	text-align: center;
+	font-size: 2em;
+}
+.h3menu4__reverse{
+	transform: rotateY(3.142rad);
+}
+.h3menu4__underline{
+	background:linear-gradient(to top, rgba(4, 95, 8, 0.5) 0%, rgba(1, 223, 12,0.5) 3px, transparent 3px) no-repeat;
+	background-size:0 100%;
+	transition:background-size .1s;
+}
+.h3menu4__underline:hover{
+	background-size: 100% 100%;
+} 
+.color4{
+	color: rgb(165, 103, 153);
+}
+.color4{
+	color: rgb(110, 76, 204);
+}
+.ulmenu4{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+.prix{
+	font-weight: bold;
+	margin-bottom: 1.5em;
+}
+.logofin{
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 4.5em;
+}
