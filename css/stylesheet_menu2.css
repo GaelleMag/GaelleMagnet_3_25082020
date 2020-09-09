@@ -1,6 +1,7 @@
-/* ---------------- header & footer ------------------------------ */
 
-header{
+/* ---------------- header & footer ------------------------------ */
+header
+{
 	background-color: rgb(87, 156, 135);
 	color: rgb(253, 203, 70);
 	font-family: 'Noto Sans TC', sans-serif;
@@ -12,7 +13,9 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 }
-footer{
+
+footer
+{
 	display: flex;
 	position: fixed;
 	bottom: 0;
@@ -25,168 +28,284 @@ footer{
 	padding-right: 1rem;
 	margin-left: 25%;
 }
-a{
+
+a
+{
 	text-decoration: none;
 	color: rgb(253, 203, 70);
-	}
-.footer__mention{
+}
+
+.footer__mention
+{
 	text-align: start;
-	/*padding-left: 1rem;*/
+	/*padding-left: 1rem;
+	*/
 }
-.footer__contact{
+
+.footer__contact
+{
 	display: inline;
-	/*text-align: end*/;
+	/*text-align: end*/
+	;
 	/*padding-left: 17em;
-	padding-right: 1rem;*/
+	padding-right: 1rem;
+	*/
 }
+
 /* ------ shake shake shake! shake your milkshake! ----- */
-.btn:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+.btn:hover
+{
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
 }
 
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
+@keyframes shake
+{
+	10%, 90%
+	{
+		transform: translate3d(-1px, 0, 0);
+	}
 
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
+	20%, 80%
+	{
+		transform: translate3d(2px, 0, 0);
+	}
 
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
+	30%, 50%, 70%
+	{
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%, 60%
+	{
+		transform: translate3d(4px, 0, 0);
+	}
 }
+
 /* ------------- menu2 ----------------- */
-section{
+section
+{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-   	margin-top: 1.5em;
-   	margin-bottom: 1.8em;
+	margin-top: 1.5em;
+	margin-bottom: 1.8em;
 }
-div{
+
+div
+{
 	margin:0.5em;
 }
-#menu2{
+
+#menu2
+{
 	background-color: rgb(255,245, 254);
 	width:50%;
 	margin:auto;
 	padding-top: 1.5em;
 	font-family: 'Satisfy', cursive;
 	color: rgb(61, 19, 25);
-	/*text-align: center;*/
+	margin-bottom: 6em;
+	/*text-align: center;
+	*/
 }
 
-#notemenu2{
+#notemenu2
+{
 	border-radius: 0;
 }
-/*.blocmenu2{
+
+/*.blocmenu2
+{
 	display: flex;
 	justify-content: space-between;
 	font-size: 1.2em;
 }
+
 */
-#h2menu2{
+#h2menu2
+{
 	font-size: 4em;
 	text-align: center;
 	-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(left, orange, purple);
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(left, orange, purple);
 }
-.h3menu2{
+
+.h3menu2
+{
 	text-align: center;
 	font-size: 2em;
 }
-.prix{
+
+.prix
+{
 	font-weight: bold;
 	margin-right: 1rem;
 }
-.logofin{
+
+.logofin
+{
 	flex-direction: row;
 	justify-content: center;
 	margin-bottom: 4.5em;
 }
-.blocmenu2{display:inline;font-size:1.8rem;}
-.plat--texte {float: left; width:80%;}
-.plat--prix {font-weight: bold; float: right; width:10%; text-align: right;}
-.blocmenu1__plat {width:100%; font-size: 1.7em;}
- /* ------------ Couleurs police ----------------- */
-.color1{
+
+.blocmenu2
+{
+	display:inline;
+	font-size:1.8rem;
+}
+
+.plat--texte
+{
+	float: left;
+	width:80%;
+}
+
+.plat--prix
+{
+	font-weight: bold;
+	float: right;
+	width:10%;
+	text-align: right;
+}
+
+.blocmenu1__plat
+{
+	width:100%;
+	font-size: 1.7em;
+}
+
+/* ------------ Couleurs police ----------------- */
+.color1
+{
 	color: rgb(198, 116, 18);
 }
-.color2{
+
+.color2
+{
 	color: rgb(165, 103, 153);
 }
-.color3{
+
+.color3
+{
 	color: rgb(110, 76, 204);
 }
 
-/* --------------- Frise ------------------------------- */ 
-.h3menu2__hr{
+/* --------------- Frise ------------------------------- */
+.h3menu2__hr
+{
 	width:6em;
 }
-.hr--reverse{
+
+.hr--reverse
+{
 	transform: rotate(180deg);
 	transform-origin: 52% 58%;
 }
-.h3menu2__hr.hr--orange{
-background:rgb(197, 117, 41);
+
+.h3menu2__hr.hr--orange
+{
+	background:rgb(197, 117, 41);
 }
-.h3menu2__hr.hr--purple{
+
+.h3menu2__hr.hr--purple
+{
 	background: rgb(165, 103, 153);
 }
 
-.h3menu2__hr.hr--blue{
+.h3menu2__hr.hr--blue
+{
 	background: rgb(110, 76, 204);
 }
 
 /* ----------------- soulignement ------------------------*/
-.h3menu2__underline{
-background:linear-gradient(to top, rgba(61, 19, 25, 0.5) 0%, rgba(61, 19, 25,0.5) 3px, transparent 3px) no-repeat;
+.h3menu2__underline
+{
+	background:linear-gradient(to top, rgba(61, 19, 25, 0.5) 0%, rgba(61, 19, 25,0.5) 3px, transparent 3px) no-repeat;
 	background-size:0 100%;
 	transition:background-size .4s;
 }
-.h3menu2__underline:hover{
+
+.h3menu2__underline:hover
+{
 	background-size: 100% 100%;
 }
 
-
 /* ---  */
-
-
-
 /* ------ responsive ----- */
-@media(max-width:1023px){
-header{width:80%;}
-footer{width: 75.6%;
-margin-left: 4.3em;}
-#menu2{
-	width:80%;
-	margin:auto;
-	padding-top: 1.5em;
-	font-family: 'Satisfy', cursive;
-	color: rgb(61, 19, 25);}
-.h3menu2{
-	font-size: 3em;
-}
-.h3menu2__hr{
-width:18%;
-}
-.h3menu2__hr.hr--reverse{width:18%;}
+@media(max-width:1023px)
+{
+	header
+	{
+		width:80%;
+		font-size: 2em;
+	}
 
-#h2menu2, h2{
-	font-size: 3em;
-}
-.blocmenu2{display:inline;font-size:2.2rem;}
-.plat--texte {float: left; width:80%;}
-.plat--prix {font-weight: bold; float: right; width:10%; text-align: right;}
-.blocmenu1__plat {width:100%; font-size: 1.7em;}
+	footer
+	{
+		margin-top: 5em;
+		width:75.8%;
+		margin-left:3em;
+		font-size: 2em;
+	}
+
+	#menu2
+	{
+		width:80%;
+		margin:auto;
+		padding-top: 1.5em;
+		font-family: 'Satisfy', cursive;
+		color: rgb(61, 19, 25);
+		margin-bottom: 7em;
+	}
+
+	.h3menu2
+	{
+		font-size: 2.5em;
+	}
+
+	.h3menu2__hr
+	{
+		width:18%;
+	}
+
+	.h3menu2__hr.hr--reverse
+	{
+		width:18%;
+	}
+
+	#h2menu2, h2
+	{
+		font-size: 3em;
+	}
+
+	.blocmenu2
+	{
+		display:inline;
+		font-size:2.2rem;
+	}
+
+	.plat--texte
+	{
+		float: left;
+		width:80%;
+	}
+
+	.plat--prix
+	{
+		font-weight: bold;
+		float: right;
+		width:10%;
+		text-align: right;
+	}
+
+	.blocmenu1__plat
+	{
+		width:100%;
+		font-size: 1.7em;
+	}
 }
