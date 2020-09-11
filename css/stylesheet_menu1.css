@@ -38,18 +38,11 @@ a
 .footer__mention
 {
 	text-align: start;
-	/*padding-left: 1rem;
-	*/
 }
 
 .footer__contact
 {
 	display: inline;
-	/*text-align: end*/
-	;
-	/*padding-left: 17em;
-	padding-right: 1rem;
-	*/
 }
 
 /* ------ shake shake shake! shake your milkshake! ----- */
@@ -85,6 +78,17 @@ a
 }
 
 /* ------------- menu1 ----------------- */
+#menu1
+{
+	background-color: rgb(252,223, 219);
+	width:50%;
+	margin:auto;
+	padding-top: 1.5em;
+	font-family: 'Satisfy', cursive;
+	color: rgb(61, 19, 25);
+	margin-bottom: 5em;
+}
+
 section
 {
 	display: flex;
@@ -99,22 +103,13 @@ div
 	margin:0.5em;
 }
 
-#menu1
+.logodebut
 {
-	background-color: rgb(252,223, 219);
-	width:50%;
-	margin:auto;
-	padding-top: 1.5em;
-	font-family: 'Satisfy', cursive;
-	color: rgb(61, 19, 25);
-	/*text-align: center;
-	*/
+	font-size: 5em;
 }
 
 .blocmenu1
 {
-	/*display: flex;
-	*/
 	font-size: 0.8em;
 }
 
@@ -129,32 +124,12 @@ div
 	font-size: 2em;
 }
 
-.h3menu1__hrg
+.hrmenu1
 {
 	width:30%;
 	padding-right: 1rem;
 }
 
-.h3menu1__hrd
-{
-	width:30%;
-	padding-left: 1rem;
-}
-
-/*---- test 1.h3menu1__underline
-{
-	transform: scaleX(1);
-	background: rgba(61, 19, 25, 0.5) hidden;
-}
-
-.h3menu1__underline:hover
-{
-	transform-origin: 0% 50%;
-	transform:scaleX(0);
-	transition: transform 1000ms;
-}
-
-----*/
 .h3menu1__underline
 {
 	background:linear-gradient(to top, rgba(61, 19, 25, 0.5) 0%, rgba(61, 19, 25,0.5) 3px, transparent 3px) no-repeat;
@@ -167,28 +142,6 @@ div
 	background-size: 100% 100%;
 }
 
-/* ---- test2 .h3menu1__underline::after
-{
-	content: '';
-	transform-origin: 0 0;
-	transform: scaleX(0);
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: .4em;
-	background: #78ab4e;
-	z-index: -1;
-	opacity: 0.8;
-	transition: transform .3s;
-}
-
-.h3menu1__underline:hover::after
-{
-	transform: scaleX(1);
-}
-
-*/
 .prix
 {
 	font-weight: bold;
@@ -201,11 +154,6 @@ div
 	background-image: -webkit-linear-gradient(left, indianred, lightcoral, orange);
 	padding-right: 3rem;
 	margin-bottom: 3rem;
-}
-
-.logodebut
-{
-	font-size: 5em;
 }
 
 .plat--texte
@@ -270,12 +218,7 @@ div
 		font-size: 1.4em;
 	}
 
-	.h3menu1__hrg
-	{
-		width:20%;
-	}
-
-	.h3menu1__hrd
+	.hrmenu1
 	{
 		width:20%;
 	}
@@ -295,15 +238,60 @@ div
 	{
 		font-weight: bold;
 		margin-right: -3em;
-		/*float: right;
-		width:10%;
-		text-align: right;
-		*/
 	}
 
 	.blocmenu1__dessert
 	{
 		width: 114%;
 		font-size: 1.6rem;
+	}
+}
+
+/* ------ responsive grand écran ----- */
+@media(min-width:1980px)
+{
+	#menu1
+	{
+		width:80%;
+	}
+
+	.logodebut
+	{
+		font-size: 15em;
+	}
+
+	#h2menu1
+	{
+		font-size: 13em;
+	}
+
+	.h3menu1
+	{
+		font-size: 6em;
+	}
+
+	.plat--texte, .plat--prix
+	{
+		font-size: 3.5em;
+	}
+
+	.blocmenu1__dessert
+	{
+		font-size: 0.8rem;
+		margin-left: 4em;
+	}
+
+	header
+	{
+		width:80%;
+		font-size: 4em;
+	}
+
+	footer
+	{
+		margin-top: 5em;
+		width:78.8%;
+		margin-left:6em;
+		font-size: 4em;
 	}
 }

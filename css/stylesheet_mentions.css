@@ -1,6 +1,7 @@
-/* ---------------- header & footer ------------------------------ */
 
-header{
+/* ---------------- header & footer ------------------------------ */
+header
+{
 	background-color: rgb(87, 156, 135);
 	color: rgb(253, 203, 70);
 	font-family: 'Noto Sans TC', sans-serif;
@@ -12,7 +13,9 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 }
-footer{
+
+footer
+{
 	display: flex;
 	position: fixed;
 	bottom: 0;
@@ -24,50 +27,61 @@ footer{
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
-a{
+
+a
+{
 	text-decoration: none;
 	color: rgb(253, 203, 70);
-	}
-.footer__mention{
+}
+
+.footer__mention
+{
 	text-align: start;
-	/*padding-left: 1rem;*/
 }
-.footer__contact{
+
+.footer__contact
+{
 	display: inline;
-	/*text-align: end*/;
-	/*padding-left: 17em;
-	padding-right: 1rem;*/
 }
+
 /* ------ shake shake shake! shake your milkshake! ----- */
-.btn:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+.btn:hover
+{
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
 }
 
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
+@keyframes shake
+{
+	10%, 90%
+	{
+		transform: translate3d(-1px, 0, 0);
+	}
 
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
+	20%, 80%
+	{
+		transform: translate3d(2px, 0, 0);
+	}
 
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
+	30%, 50%, 70%
+	{
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40%, 60%
+	{
+		transform: translate3d(4px, 0, 0);
+	}
 }
+
 /*------------------------ page -----------------------------*/
-main {
-  width: 50%;
-  height: 100%;
-  position: relative;
-  margin:auto;
-  margin-bottom: 6em;
+main
+{
+	width: 50%;
+	height: 100%;
+	position: relative;
+	margin:auto;
+	margin-bottom: 6em;
 }

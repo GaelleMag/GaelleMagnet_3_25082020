@@ -1,33 +1,5 @@
 
-/*fonts*/
-@font-face
-{
-  font-family: 'Noto Sans TC', sans-serif;
-  font-family: 'Satisfy', cursive;
-  src: url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;
-  700&family=Satisfy&display=swap);
-}
-
-html
-{
-  height: 100%;
-  position: relative;
-}
-
-*
-{
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body
-{
-  font-family: 'Noto Sans TC', sans-serif;
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 5em;
-}
-
+/* ------------------ header & footer --------------------- */
 header
 {
   background-color: #579c87;
@@ -48,6 +20,53 @@ a
   color: #fdcb46;
 }
 
+footer
+{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  background-color: #579c87;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.4em;
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  margin-left: 25%;
+}
+
+.footer__mention
+{
+  text-align: start;
+  padding-left: 1rem;
+}
+
+.footer__contact
+{
+  display: inline;
+}
+
+/* ----------------------------------- css ------------------------------- */
+html
+{
+  height: 100%;
+  position: relative;
+}
+
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Noto Sans TC', sans-serif;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 5em;
+}
+
 main
 {
   width: 80%;
@@ -56,41 +75,14 @@ main
   margin:auto;
 }
 
-.presentationmenu
-{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 100px,
-  grid-gap:10px;
-  /*display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;*/
-  margin-top: 1.5em;
-}
-
 .presentationmenu__miniature
 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /*grid-template-rows: 100px 100px;
-  grid-gap:10px;*/
-  /*display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;*/
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 400px 400px;
+  margin-top: 1.5em;
+  margin-left: 5em;
+  justify-content: center;
 }
 
 .fab.fa-itunes-note
@@ -129,23 +121,10 @@ main
   color: #3d1319;
 }
 
-.zoom
-{
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  transition: all 400ms ease;
-}
-
-.zoom:hover
-{
-  transform: scale(1.7);
-  opacity:0.33;
-}
-
 .presentationmenu--menu2
 {
+  grid-column: 2;
+  grid-row: 1;
   grid-column: 2;
   grid-row: 1;
   background-color: #fff5fe;
@@ -164,8 +143,6 @@ main
 
 .degrademenu2
 {
-  /*font-size: 50px;
-  */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, orange, purple);
@@ -173,7 +150,6 @@ main
 
 .presentationmenu--menu3
 {
-  
   grid-column: 1;
   grid-row: 2;
   background-color: #f9f9f9;
@@ -187,8 +163,6 @@ main
   margin: auto;
   padding-top: 1.5em;
   font-family: 'Satisfy', cursive;
-  /*color: rgb(80, 118, 234);
-  */
   color: #0887fb;
 }
 
@@ -201,9 +175,11 @@ main
 
 .presentationmenu--menu4
 {
-    grid-column: 2;
+  grid-column: 2;
   grid-row: 2;
   background-color: #fdfffd;
+  margin-top: 2em;
+  margin-bottom: 8.5em;
   margin-right: 4em;
 }
 
@@ -221,46 +197,41 @@ main
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left, green, greenyellow);
 }
-h3{
+
+/* ------------------------------ zoom -----------------------------------------*/
+.zoom
+{
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.zoom:hover
+{
+  transform: scale(1.7);
+  opacity:0.33;
+}
+
+/* -----------------------------------------------------------------------------*/
+h3
+{
   font-size:1.6rem;
 }
+
 .avenir
 {
   background-color: #579c87;
   font-family: 'Noto Sans TC', sans-serif;
-  font-size: 2rem;
+  /*font-size: 2rem;
+  */
   color: #fdcb46;
   width: 20%;
   margin-left: 41%;
   margin-bottom: 2em;
   text-align: center;
   border-radius: 1rem;
-}
-
-footer
-{
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  justify-content: space-between;
-  background-color: #579c87;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-size: 1.4em;
-  width: 50%;
-  padding-left: 1rem;
-  padding-right: 2rem;
-  margin-left: 25%;
-}
-
-.footer__mention
-{
-  text-align: start;
-  padding-left: 1rem;
-}
-
-.footer__contact
-{
-  display: inline;
 }
 
 /* ---------------- animation points ---------------- */
@@ -327,7 +298,7 @@ footer
   }
 }
 
-/* ------ responsive ----- */
+/* ------ responsive petit écran ----- */
 @media(max-width:1023px)
 {
   .presentationmenu
@@ -359,12 +330,16 @@ footer
     font-size: 1.7em;
   }
 
+  h3
+  {
+    font-size:3em;
+  }
+
   .avenir
   {
-    width: 45%;
+    width: 60%;
     margin: auto;
-    margin-bottom: 2em;
-    font-size: 3em;
+    margin-bottom: 14em;
   }
 
   header
@@ -379,5 +354,65 @@ footer
     width:80%;
     margin-left:3em;
     font-size: 2em;
+  }
+}
+
+/* ------ responsive grand écran ----- */
+@media(min-width:1980px)
+{
+  .presentationmenu__miniature
+  {
+    display: grid;
+    grid-template-columns: 539px 790px;
+    grid-template-rows: 668px 633px;
+    grid-row-gap: 30em;
+    grid-column-gap: 30em;
+    margin-top: 5.5em;
+    justify-content: center;
+  }
+
+  .presentationmenu--menu1, .presentationmenu--menu2, .presentationmenu--menu3, .presentationmenu--menu4
+  {
+    -webkit-box-shadow: 0px 0px 13px -1px #787478;
+    box-shadow: 0px 0px 13px -1px #787478;
+    width: 15em;
+    height: 20em;
+    text-align: center;
+    padding-top: 5.5em;
+    font-size: 3em;
+  }
+
+  .zoom:hover
+  {
+    transform: scale(1.5);
+    opacity:0.33;
+  }
+
+  h3
+  {
+    font-size:4em;
+  }
+
+  .avenir
+  {
+    width:40%;
+    height:7em;
+    margin-top: 40em;
+    margin-bottom: 24em;
+    margin-left: 34%;
+  }
+
+  header
+  {
+    width:80%;
+    font-size: 4em;
+  }
+
+  footer
+  {
+    margin-top: 5em;
+    width:80%;
+    margin-left:5em;
+    font-size: 4em;
   }
 }

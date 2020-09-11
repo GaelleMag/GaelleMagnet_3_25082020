@@ -38,18 +38,11 @@ a
 .footer__mention
 {
 	text-align: start;
-	/*padding-left: 1rem;
-	*/
 }
 
 .footer__contact
 {
 	display: inline;
-	/*text-align: end*/
-	;
-	/*padding-left: 17em;
-	padding-right: 1rem;
-	*/
 }
 
 /* ------ shake shake shake! shake your milkshake! ----- */
@@ -107,8 +100,6 @@ div
 	font-family: 'Satisfy', cursive;
 	color: rgb(61, 19, 25);
 	margin-bottom: 5em;
-	/*text-align: center;
-	*/
 }
 
 #notemenu3
@@ -118,10 +109,6 @@ div
 
 .blocmenu3
 {
-	/*font-size: 4em;
-	*/
-	/*display: flex;
-	*/
 	justify-content: space-between;
 	font-size: 1.4em;
 }
@@ -141,11 +128,9 @@ div
 	font-size: 2em;
 }
 
-.h3menu3__reverse
+.hrmenu3__reverse
 {
 	transform: rotateY(3.142rad);
-	/*transform-origin: 52% 58%;
-	*/
 }
 
 .h3menu3__underline
@@ -182,7 +167,7 @@ div
 	margin-bottom: 4.5em;
 }
 
-/* ------ responsive ----- */
+/* ------ responsive petit écran ----- */
 @media(max-width:1023px)
 {
 	header
@@ -229,7 +214,7 @@ div
 		width:18%;
 	}
 
-	#h2menu3,
+	#h2menu3
 	{
 		font-size: 4em;
 	}
@@ -237,8 +222,6 @@ div
 	.blocmenu3
 	{
 		display:inline;
-		/*font-size:1.8rem;
-		*/
 	}
 
 	.plat--texte
@@ -263,4 +246,63 @@ div
 		font-size: 1.7em;
 	}
 }
+
+/* ------ responsive grand écran ----- */
+@media(min-width:1980px)
+{
+	#menu3
+	{
+		width:80%;
+		margin-bottom: 14em;
+	}
+
+	.logodebut
+	{
+		font-size: 15em;
+	}
+
+	#h2menu3
+	{
+		font-size: 13em;
+	}
+
+	.h3menu3
+	{
+		font-size: 6em;
+	}
+
+	.hrmenu3
+	{
+		width:5em;
+	}
+
+	.hrmenu3__reverse
+	{
+		width:5em;
+	}
+
+	.plat--texte, .plat--prix
+	{
+		font-size: 3.5em;
+	}
+
+	.blocmenu1__dessert
+	{
+		font-size: 0.8rem;
+		margin-left: 4em;
+	}
+
+	header
+	{
+		width:80%;
+		font-size: 4em;
+	}
+
+	footer
+	{
+		margin-top: 5em;
+		width:78.8%;
+		margin-left:6em;
+		font-size: 4em;
+	}
 }

@@ -38,18 +38,11 @@ a
 .footer__mention
 {
 	text-align: start;
-	/*padding-left: 1rem;
-	*/
 }
 
 .footer__contact
 {
 	display: inline;
-	/*text-align: end*/
-	;
-	/*padding-left: 17em;
-	padding-right: 1rem;
-	*/
 }
 
 /* ------ shake shake shake! shake your milkshake! ----- */
@@ -105,11 +98,9 @@ div
 	width:50%;
 	margin:auto;
 	padding-top: 1.5em;
-	font-family: 'Satisfy', cursive;
+	font-family: 'Noto Sans TC', sans-serif;
 	color: rgb(61, 19, 25);
 	margin-bottom: 6em;
-	/*text-align: center;
-	*/
 }
 
 #notemenu2
@@ -117,14 +108,6 @@ div
 	border-radius: 0;
 }
 
-/*.blocmenu2
-{
-	display: flex;
-	justify-content: space-between;
-	font-size: 1.2em;
-}
-
-*/
 #h2menu2
 {
 	font-size: 4em;
@@ -198,7 +181,7 @@ div
 /* --------------- Frise ------------------------------- */
 .h3menu2__hr
 {
-	width:6em;
+	width:5em;
 }
 
 .hr--reverse
@@ -207,17 +190,17 @@ div
 	transform-origin: 52% 58%;
 }
 
-.h3menu2__hr.hr--orange
+.hr--orange
 {
 	background:rgb(197, 117, 41);
 }
 
-.h3menu2__hr.hr--purple
+.hr--purple
 {
 	background: rgb(165, 103, 153);
 }
 
-.h3menu2__hr.hr--blue
+.hr--blue
 {
 	background: rgb(110, 76, 204);
 }
@@ -235,8 +218,7 @@ div
 	background-size: 100% 100%;
 }
 
-/* ---  */
-/* ------ responsive ----- */
+/* ------ responsive petit écran ----- */
 @media(max-width:1023px)
 {
 	header
@@ -307,5 +289,55 @@ div
 	{
 		width:100%;
 		font-size: 1.7em;
+	}
+}
+
+/* ------ responsive grand écran ----- */
+@media(min-width:1980px)
+{
+	#menu2
+	{
+		width:80%;
+		margin-bottom: 15em;
+	}
+
+	.logodebut
+	{
+		font-size: 15em;
+	}
+
+	#h2menu2
+	{
+		font-size: 13em;
+	}
+
+	.h3menu2
+	{
+		font-size: 6em;
+	}
+
+	.plat--texte, .plat--prix
+	{
+		font-size: 3.5em;
+	}
+
+	.blocmenu1__dessert
+	{
+		font-size: 0.8rem;
+		margin-left: 4em;
+	}
+
+	header
+	{
+		width:80%;
+		font-size: 4em;
+	}
+
+	footer
+	{
+		margin-top: 5em;
+		width:78.8%;
+		margin-left:6em;
+		font-size: 4em;
 	}
 }
