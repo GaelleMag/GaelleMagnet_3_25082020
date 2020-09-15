@@ -235,7 +235,8 @@ h3
 }
 
 /* ---------------- animation points ---------------- */
-/*.dots::after{
+/*tentative 1
+.dots::after{
   overflow: hidden;
   display: inline-block;
   vertical-align: bottom;
