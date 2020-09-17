@@ -1,52 +1,10 @@
-
-/* ------------------ header & footer --------------------- */
-header
-{
-  background-color: #579c87;
-  color: #fdcb46;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-size: 1.5em;
-  text-align: center;
-  width: 50%;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-a
-{
-  text-decoration: none;
-  color: #fdcb46;
-}
-
 footer
 {
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  justify-content: space-between;
-  background-color: #579c87;
-  font-family: 'Noto Sans TC', sans-serif;
-  font-size: 1.4em;
   width: 50%;
-  padding-left: 1rem;
-  padding-right: 2rem;
   margin-left: 25%;
 }
 
-.footer__mention
-{
-  text-align: start;
-  padding-left: 1rem;
-}
 
-.footer__contact
-{
-  display: inline;
-}
-
-/* ----------------------------------- css ------------------------------- */
 html
 {
   height: 100%;
@@ -266,36 +224,7 @@ h3
         100% { content: ''; }
     }
 
-/* ------ shake shake shake! shake your milkshake! ----- */
-.btn:hover
-{
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate(0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-@keyframes shake
-{
-  10%, 90%
-  {
-    transform: translate(-1px, 0);
-  }
 
-  20%, 80%
-  {
-    transform: translate(2px, 0);
-  }
-
-  30%, 50%, 70%
-  {
-    transform: translate(-4px, 0);
-  }
-
-  40%, 60%
-  {
-    transform: translate(4px, 0);
-  }
-}
 
 
 /* ------ responsive petit écran ----- */
