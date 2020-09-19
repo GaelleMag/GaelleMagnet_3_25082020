@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="fr">
 	<head>
+		
 		<meta charset="UTF-8">
 		<title>Ohmyfood</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="La note enchantée, c’est la finesse des plats pour vos papilles. Réservez votre menu en ligne.">
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&family=Satisfy&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/ca10b81a1f.js" crossorigin="anonymous"></script>
 		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -14,29 +17,30 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-config" content="favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-		<link rel="stylesheet" href="css/stylesheet_menu1.css" />
-		<link rel="stylesheet" href="css/header_footer.css" />
+		<link rel="stylesheet" href="css/specific.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/responsive.css" >
 	</head>
 	<body>
 		<header>
 			<a href=index.html><h1>ohmyfood</h1></a>
 		</header>
-		<main id="menu1">
-			<section>
+		<main class="menu menu1">
+			<section class="section1">
 				<span class="logodebut"><i class="fab fa-itunes-note"></i></span>
-				<h2 id="h2menu1">La note enchantée</h2>
+				<h2 class="h2menu">La note enchantée</h2>
 			</section>
 			<section>
 				<div>
 					<div>
-						<h3 class="h3menu1">
+						<h3>
 							<img class="hrmenu1" src="logos/hr_gauche.png" alt="frise">
-							<span class="h3menu1__underline">Prélude</span>
+							<span class="h3__underline underline--1">Prélude</span>
 							<img class="hrmenu1" src="logos/hr_droite.png" alt="frise">
 						</h3>
 					</div>
-					<div  class="blocmenu1">
-						<div class="blocmenu1__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Ravioles de foie gras accompagnés de leur crème à la truffe
 							</div>
@@ -44,7 +48,7 @@
 								98€
 							</div>
 						</div>
-						<div class="blocmenu1__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Caviar osciète sur blini à la farine de blé noir
 							</div>
@@ -52,7 +56,7 @@
 								115€
 							</div>
 						</div>
-						<div class="blocmenu1__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Homard et espuma de potiron mariné aux zestes d'oranges
 							</div>
@@ -60,7 +64,7 @@
 								89€
 							</div>
 						</div>
-						<div class="blocmenu1__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Foie gras de canard cuit entier, confiture de figue et pain toasté
 							</div>
@@ -73,13 +77,13 @@
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu1">
+					<h3>
 						<img class="hrmenu1" src="logos/hr_gauche.png" alt="frise">
-						<span class="h3menu1__underline">Point d'orgue</span>
+						<span class="h3__underline underline--1">Point d'orgue</span>
 						<img class="hrmenu1" src="logos/hr_droite.png" alt="frise">
 					</h3>
-					<div  class="blocmenu1">
-						<div class="blocmenu1__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Noix de coquilles Saint-Jacques sur lit de purée de céléri-rave
 							</div>
@@ -87,7 +91,7 @@
 								102€
 							</div>
 						</div>
-						<div class="blocmenu1__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Langoustine poêlée, purée de patate douce
 							</div>
@@ -95,7 +99,7 @@
 								205€
 							</div>
 						</div>
-						<div class="blocmenu1__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Mijoté de queue de boeuf et riz sauvage aux zests de citron
 							</div>
@@ -108,23 +112,23 @@
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu1">
+					<h3>
 						<img class="hrmenu1" src="logos/hr_gauche.png" alt="frise">
-						<span class="h3menu1__underline">Mouvement final</span>
+						<span class="h3__underline underline--1">Mouvement final</span>
 						<img class="hrmenu1" src="logos/hr_droite.PNG" alt="frise">
 					</h3>
-					<div  class="blocmenu1__dessert">
-						<div class="blocmenu1__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Macaron noisette et chocolat, glace au caramel brun et sel de Guérande
 							</div>
 						</div>
-						<div class="blocmenu1__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Baba au rhum revisité avec son coulis de citron
 							</div>
 						</div>
-						<div class="blocmenu1__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Tarte au citron meringué destructuré
 							</div>
@@ -133,10 +137,10 @@
 				</div>
 			</section>
 			<section>
-				<h2><i class="fab fa-itunes-note"></i>La note enchantée</h2>
+				<h2 class="logofin"><i class="fab fa-itunes-note"></i>La note enchantée</h2>
 			</section>
 		</main>
-		<footer>
+		<footer class="footer2">
 			<p class="btn">
 				<a class="mention" href="mentions.html" target="_blank">Mentions légales</a>
 			</p>

@@ -1,9 +1,12 @@
 <!doctype html>
 <html lang="fr">
 	<head>
+		
 		<meta charset="UTF-8">
 		<title>Ohmyfood</title>
-		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&family=Satisfy&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Notre concept permet aux utilisateurs de réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte! Intéressé ? C’est ici !">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&family=Satisfy&family=Dosis&family=Kaushan+Script&family=Rochester&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/ca10b81a1f.js" crossorigin="anonymous"></script>
 		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -14,21 +17,22 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-config" content="favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-		<link rel="stylesheet" href="css/stylesheet.css" />
-		<link rel="stylesheet" href="css/header_footer.css" />
+		<link rel="stylesheet" href="css/specific.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/responsive.css">
 	</head>
 	<body>
-		<header>
-			<a href=index.html><h1>ohmyfood</h1></a>
-		</header>
 		<main>
+			<header>
+				<a href=index.html><h1>ohmyfood</h1></a>
+			</header>
 			<section class="presentationmenu">
 				<div class="presentationmenu__miniature">
 					<div class="presentationmenu--menu1">
-						<a class="menu1" href="menu1.html">
+						<a class="carte carte1" href="menu1.html">
 							<div  class="zoom">
 								<i class="fab fa-itunes-note"></i>
-								<p>
+								<p class="font1">
 									La note enchantée
 								</p>
 								<h2>MENU</h2>
@@ -36,38 +40,38 @@
 						</a>
 					</div>
 					<div class="presentationmenu--menu2">
-						<a class="menu2" href="menu2.html">
+						<a class="carte carte2" href="menu2.html">
 							<div class="zoom">
-								<p class="degrademenu2">
+								<p class="degrade degrademenu2">
 									Le chic à la française
 								</p>
-								<p>
+								<p class="menugras">
 									Menu
 								</p>
 							</div>
 						</a>
 					</div>
 					<div class="presentationmenu--menu3">
-						<a class="menu3" href="menu3.html">
+						<a class="carte carte3" href="menu3.html">
 							<div class="zoom">
-								<p class="degrademenu3">
+								<p class="degrade degrademenu3">
 									Le délice des papilles
 								</p>
-								<p>
+								<h2>
 									Menu
-								</p>
+								</h2>
 							</div>
 						</a>
 					</div>
 					<div class="presentationmenu--menu4">
-						<a class="menu4" href="menu4.html">
+						<a class="carte carte4" href="menu4.html">
 							<div class="zoom">
-								<p class="degrademenu4">
+								<p class="degrade degrademenu4">
 									La palette du goût
 								</p>
-								<p>
+								<h2>
 									Menu
-								</p>
+								</h2>
 							</div>
 						</a>
 					</div>
@@ -78,15 +82,15 @@
 					<h3>Prochainement<span class="dots"></span></h3>
 				</div>
 			</section>
+			<footer>
+				<p class="btn">
+					<a class="footer__mention" href="mentions.html" target="_blank">Mentions légales</a>
+				</p>
+				<p class="btn">
+					<a class="footer__contact" href="mailto:ohmyfood@omf.com">Contactez-nous</a>
+				</p>
+			</footer>
 		</main>
-		<footer>
-			<p class="btn">
-				<a class="footer__mention" href="mentions.html" target="_blank">Mentions légales</a>
-			</p>
-			<p class="btn">
-				<a class="footer__contact" href="mailto:ohmyfood@omf.com">Contactez-nous</a>
-			</p>
-		</footer>
 	</body>
 </html>
 

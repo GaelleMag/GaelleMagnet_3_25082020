@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="fr">
 	<head>
+		
 		<meta charset="UTF-8">
 		<title>Ohmyfood</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Le délice des papilles vous propose de délicieux plats orientés Terre ou Mer, à votre convenance.">
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&family=Satisfy&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/ca10b81a1f.js" crossorigin="anonymous"></script>
 		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -14,26 +17,27 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-config" content="favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-		<link rel="stylesheet" href="css/stylesheet_menu3.css" />
-		<link rel="stylesheet" href="css/header_footer.css" />
+		<link rel="stylesheet" href="css/specific.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/responsive.css" >
 	</head>
 	<body>
 		<header>
 			<a href=index.html><h1>ohmyfood</h1></a>
 		</header>
-		<main id="menu3">
+		<main class="menu menu3">
 			<section>
-				<h2 id="h2menu3">Le délice des papilles</h2>
+				<h2 class="h2menu degrade degrademenu3">Le délice des papilles</h2>
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu3">
+					<h3 class="">
 						<img class="hrmenu3" src="logos/hr1_menu3.png" alt="frise">
-						<span class="h3menu3__underline">Pour bien commencer</span>
-						<img class="hrmenu3__reverse" src="logos/hr1_menu3.png" alt="frise">
+						<span class="h3__underline underline--3">Pour bien commencer</span>
+						<img class="hrmenu3 reverse" src="logos/hr1_menu3.png" alt="frise">
 					</h3>
-					<div  class="blocmenu3">
-						<div class="blocmenu3__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Poulet rôti aux herbes de provence et sa crème de truffe
 							</div>
@@ -41,7 +45,7 @@
 								110€
 							</div>
 						</div>
-						<div class="blocmenu3__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Langouste rôtie et ses légumes de saison
 							</div>
@@ -49,7 +53,7 @@
 								225€
 							</div>
 						</div>
-						<div class="blocmenu3__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Côte de boeuf angus et sa purée de panais
 							</div>
@@ -62,13 +66,13 @@
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu3">
+					<h3>
 						<img class="hrmenu3" src="logos/hr2_menu3.png" alt="frise">
-						<span class="h3menu3__underline">Pour bien continuer</span>
-						<img class="hrmenu3__reverse" src="logos/hr2_menu3.png" alt="frise">
+						<span class="h3__underline underline--3">Pour bien continuer</span>
+						<img class="hrmenu3 reverse" src="logos/hr2_menu3.png" alt="frise">
 					</h3>
-					<div  class="blocmenu3">
-						<div class="blocmenu3__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Poulet rôti aux herbes de provence et sa crème de truffe
 							</div>
@@ -76,7 +80,7 @@
 								110€
 							</div>
 						</div>
-						<div class="blocmenu3__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Langouste rôtie et ses légumes de saison
 							</div>
@@ -84,7 +88,7 @@
 								225€
 							</div>
 						</div>
-						<div class="blocmenu3__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Côte de boeuf angus et sa purée de panais
 							</div>
@@ -97,13 +101,13 @@
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu3">
+					<h3>
 						<img class="hrmenu3" src="logos/hr3_menu3.png" alt="frise">
-						<span class="h3menu3__underline">Pour bien terminer</span>
-						<img class="hrmenu3__reverse" src="logos/hr3_menu3.png" alt="frise">
+						<span class="h3__underline underline--3">Pour bien terminer</span>
+						<img class="hrmenu3 reverse" src="logos/hr3_menu3.png" alt="frise">
 					</h3>
-					<div  class="blocmenu3">
-						<div class="blocmenu3__plat">
+					<div  class="blocmenu menu__dessert">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Farandole de desserts du chef
 							</div>
@@ -111,7 +115,7 @@
 								55€
 							</div>
 						</div>
-						<div class="blocmenu3__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Crème brûlée revisitée
 							</div>
@@ -119,7 +123,7 @@
 								60€
 							</div>
 						</div>
-						<div class="blocmenu3__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Tiramisu à la noisette
 							</div>
@@ -131,7 +135,7 @@
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="grand petit">
 			<p class="btn">
 				<a class="mention" href="mentions.html" target="_blank">Mentions légales</a>
 			</p>

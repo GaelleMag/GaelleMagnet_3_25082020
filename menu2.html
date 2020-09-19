@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="fr">
 	<head>
+		
 		<meta charset="UTF-8">
 		<title>Ohmyfood</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Le meilleur de la cuisine française à portée de clic.">
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&family=Satisfy&display=swap" rel="stylesheet">
 		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -14,26 +17,27 @@
 		<meta name="msapplication-config" content="favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 		<script src="https://kit.fontawesome.com/ca10b81a1f.js" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="css/stylesheet_menu2.css" />
-		<link rel="stylesheet" href="css/header_footer.css" />
+		<link rel="stylesheet" href="css/specific.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/responsive.css" >
 	</head>
 	<body>
 		<header>
 			<a href=index.html><h1>ohmyfood</h1></a>
 		</header>
-		<main id="menu2">
+		<main class="menu menu2">
 			<section>
-				<h2 id="h2menu2">Le chic à la française</h2>
+				<h2 class="h2menu degrade degrademenu2">Le chic à la française</h2>
 			</section>
 			<section>
 				<div class="color1">
-					<h3 class="h3menu2">
-						<img class="h3menu2__hr hr--orange" src="logos/hr_menu2.png" alt="frise">
-						<span class="h3menu2__underline">Pour se mettre en appétit</span>
-						<img class="h3menu2__hr hr--orange hr--reverse" src="logos/hr_menu2.png" alt="frise">
+					<h3>
+						<img class="hrmenu2__hr hr--orange" src="logos/hr_menu2.png" alt="frise">
+						<span class="h3__underline underline--21 underline--xpetit">Pour se mettre en appétit</span>
+						<img class="hrmenu2__hr hr--orange hr--reverse" src="logos/hr_menu2.png" alt="frise">
 					</h3>
-					<div  class="blocmenu2">
-						<div class="blocmenu2__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Ravioles de foie gras accompagnés de leur crème à la truffe
 							</div>
@@ -41,7 +45,7 @@
 								79€
 							</div>
 						</div>
-						<div class="blocmenu2__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Velouté de légumes d'antan
 							</div>
@@ -49,7 +53,7 @@
 								57€
 							</div>
 						</div>
-						<div class="blocmenu2__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Soupe à l'oignon revisitée
 							</div>
@@ -62,13 +66,13 @@
 			</section>
 			<section>
 				<div class="color2">
-					<h3 class="h3menu2">
-						<img class="h3menu2__hr  hr--purple" src="logos/hr_menu2.png" alt="frise">
-						<span class="h3menu2__underline">Plaisir des papilles</span>
-						<img class="h3menu2__hr hr--purple hr--reverse" src="logos/hr_menu2.png" alt="frise">
+					<h3>
+						<img class="hrmenu2__hr  hr--purple" src="logos/hr_menu2.png" alt="frise">
+						<span class="h3__underline underline--22 underline--petit">Plaisir des papilles</span>
+						<img class="hrmenu2__hr hr--purple hr--reverse" src="logos/hr_menu2.png" alt="frise">
 					</h3>
-					<div  class="blocmenu2">
-						<div class="blocmenu2__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Coquilles Saint-Jacques accompagnée d'une purée de panais
 							</div>
@@ -76,7 +80,7 @@
 								95€
 							</div>
 						</div>
-						<div class="blocmenu2__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Magret de canard et parmentier de pommes de terres
 							</div>
@@ -84,7 +88,7 @@
 								88€
 							</div>
 						</div>
-						<div class="blocmenu2__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Pigeonneau d'Ille et Vilaine sur son lit de gnocchis aux légumes
 							</div>
@@ -97,13 +101,13 @@
 			</section>
 			<section>
 				<div class="color3">
-					<h3 class="h3menu2">
-						<img class="h3menu2__hr hr--blue" src="logos/hr_menu2.png" alt="frise">
-						<span class="h3menu2__underline">Gourmandises sucrées</span>
-						<img class="h3menu2__hr hr--blue hr--reverse" src="logos/hr_menu2.png" alt="frise">
+					<h3>
+						<img class="hrmenu2__hr hr--blue" src="logos/hr_menu2.png" alt="frise">
+						<span class="h3__underline underline--23 underline--petit">Gourmandises sucrées</span>
+						<img class="hrmenu2__hr hr--blue hr--reverse" src="logos/hr_menu2.png" alt="frise">
 					</h3>
-					<div  class="blocmenu2">
-						<div class="blocmenu2__plat">
+					<div  class="blocmenu menu__dessert">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Pétales de violettes glacées et purée de noisettes 
 								<br/>
@@ -116,7 +120,7 @@
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="grand petit">
 			<p class="btn">
 				<a class="mention" href="mentions.html" target="_blank">Mentions légales</a>
 			</p>

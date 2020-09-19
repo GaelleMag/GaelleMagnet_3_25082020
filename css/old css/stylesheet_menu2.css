@@ -1,0 +1,71 @@
+section
+{
+	margin-top: 1.5em;
+	margin-bottom: 1.8em;
+}
+
+.menu2
+{
+	background-color: rgb(255,245, 254);
+	padding-top: 1.5em;
+	font-family: 'Noto Sans TC', sans-serif;
+	color: rgb(61, 19, 25);
+}
+
+}
+
+/* ------------ Couleurs police ----------------- */
+.color1
+{
+	color: rgb(198, 116, 18);
+}
+
+.color2
+{
+	color: rgb(165, 103, 153);
+}
+
+.color3
+{
+	color: rgb(110, 76, 204);
+}
+
+/* --------------- Frise ------------------------------- */
+.hrmenu2__hr
+{
+	width:5em;
+}
+
+.hr--reverse
+{
+	transform: rotate(180deg);
+	transform-origin: 52% 58%;
+}
+
+.hr--orange
+{
+	background:rgb(197, 117, 41);
+}
+
+.hr--purple
+{
+	background: rgb(165, 103, 153);
+}
+
+.hr--blue
+{
+	background: rgb(110, 76, 204);
+}
+
+/* ----------------- soulignement ------------------------*/
+.underline--21{
+	background:linear-gradient(to top, rgba(198, 116, 18, 0.5) 0%, rgba(212, 118, 7,0.5) 3px, transparent 3px) no-repeat;
+}
+.underline--22{
+	background:linear-gradient(to top, rgba(165, 103, 153, 0.5) 0%, rgba(144, 58, 127,0.5) 3px, transparent 3px) no-repeat;
+}
+.underline--23{
+	background:linear-gradient(to top, rgba(110, 76, 204, 0.5) 0%, rgba(43, 15, 120,0.5) 3px, transparent 3px) no-repeat;
+}
+
+

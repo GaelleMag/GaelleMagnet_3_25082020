@@ -1,0 +1,217 @@
+/* ------ responsive petit écran ----- */
+@media(max-width:1023px)
+{
+  body{
+    padding-bottom: 4em;
+  }
+  .menu
+  {
+    width:100%;
+  }
+  /* H&R */
+ header
+  {
+    width:100%;
+    font-size: 1em;
+  }
+
+  footer{
+    display:flex;
+    position: fixed;
+    bottom: 0;
+    width:96%;
+    font-size: 1em;
+    margin-left: 0%;
+  }
+.petit {
+  width:82%;
+}
+.footer2{
+  width:95.7%;
+}
+/* index*/
+.presentationmenu__miniature
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size:1rem;
+    margin-left: 0em;
+    
+  }
+  .presentationmenu--menu1, .presentationmenu--menu2, .presentationmenu--menu3, .presentationmenu--menu4{
+    width:10.7em;
+    height:14em;
+    text-align: center;
+    margin: 0.5em;
+    padding-top: 3em;
+  }
+
+  .zoom:hover
+{
+  transform: scale(1);
+  opacity: 1;
+  }
+  .carte
+  {
+    font-size: 1em;
+    margin-bottom: 2em;
+  }
+ 
+  .menugras, .degrade{
+    font-size:1em;
+  }
+  
+  .avenir
+  {
+    width: 60%;
+    margin: auto;
+   }
+/* menus */
+ .logodebut
+  {
+    font-size:2em;
+  }
+  .logofin{
+    font-size: 1rem;
+    margin-left: 7%;
+  }
+  .h2menu
+  {
+    font-size: 2em;
+  }
+  .menu2{
+    font-size: 1em;
+  }
+
+  .h3__underline{
+    font-size:0.8em;
+  }
+.underline--petit{
+  font-size: 0.6em;
+}
+.underline--xpetit{
+  font-size: 0.5em;
+}
+  .hrmenu1, .hrmenu3, .hrmenu4
+  {
+    width:15%;
+  }
+  .hrmenu2__hr{
+    width:15%;
+  }
+
+  .blocmenu__plat
+  {
+    width:70%;
+    font-size: 0.8em;
+  }
+
+  .plat--texte
+  {
+    width:90%;
+  }
+
+  .plat--prix
+  {
+    font-weight: bold;
+    margin-right: -3em;
+  }
+}
+
+
+
+/* ------ responsive grand écran ----- */
+@media(min-width:1980px)
+{
+  .menu
+  {
+    width:80%;
+  }
+
+  .presentationmenu__miniature
+  {
+    display: grid;
+    grid-template-columns: 539px 790px;
+    grid-template-rows: 668px 633px;
+    grid-row-gap: 30em;
+    grid-column-gap: 30em;
+    margin-top: 5.5em;
+    justify-content: center;
+  }
+
+  .presentationmenu--menu1, .presentationmenu--menu2, .presentationmenu--menu3, .presentationmenu--menu4
+  {
+    -webkit-box-shadow: 0px 0px 13px -1px #787478;
+    box-shadow: 0px 0px 13px -1px #787478;
+    width: 15em;
+    height: 20em;
+    text-align: center;
+    padding-top: 5.5em;
+    font-size: 3em;
+  }
+
+  .zoom:hover
+  {
+    transform: scale(1.5);
+    opacity:0.33;
+  }
+
+  h3
+  {
+    font-size:7em;
+  }
+.hrmenu3, .hrmenu4
+  {
+    width: 6em;
+  }
+  .avenir
+  {
+    width:40%;
+    height:20em;
+    margin-top: 43em;
+    margin-bottom: 21em;
+    margin-left: 30%;
+  }
+
+  .logodebut
+  {
+    font-size: 15em;
+  }
+
+  .h2menu
+  {
+    font-size: 13em;
+  }
+
+  .h3menu1
+  {
+    font-size: 6em;
+  }
+
+  .plat--texte, .plat--prix
+  {
+    font-size: 3.5em;
+  }
+  .menu__dessert{
+    margin-bottom: 38em;
+  }
+/* H&F */
+  header
+  {
+    width:80%;
+    font-size: 4em;
+  }
+
+  footer, .footer2
+  {
+   
+    width:79.8%;
+    margin-left:5.9em;
+    font-size: 4em;
+  }
+
+ .grand{
+    width: 78.8%;
+  }
+}

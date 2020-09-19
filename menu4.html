@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="fr">
 	<head>
+		
 		<meta charset="UTF-8">
 		<title>Ohmyfood</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="La palette du goût, pour ravir vos papilles!">
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;700&family=Satisfy&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/ca10b81a1f.js" crossorigin="anonymous"></script>
 		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -14,26 +17,27 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-config" content="favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-		<link rel="stylesheet" href="css/stylesheet_menu4.css" />
-		<link rel="stylesheet" href="css/header_footer.css" />
+		<link rel="stylesheet" href="css/specific.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/responsive.css" />
 	</head>
 	<body>
 		<header>
 			<a href=index.html><h1>ohmyfood</h1></a>
 		</header>
-		<main id="menu4">
+		<main class="menu menu4">
 			<section>
-				<h2 id="h2menu4">La palette du goût</h2>
+				<h2 class="h2menu degrade degrademenu4">La palette du goût</h2>
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu4">
+					<h3>
 						<img class="hrmenu4" src="logos/hr_menu4.png" alt="frise">
-						<span class="h3menu4__underline">Esquisse</span>
-						<img class="hrmenu4__reverse" src="logos/hr_menu4.png" alt="frise">
+						<span class="h3__underline underline--4">Esquisse</span>
+						<img class="hrmenu4 reverse" src="logos/hr_menu4.png" alt="frise">
 					</h3>
-					<div  class="blocmenu4">
-						<div class="blocmenu4__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Fricassée d'escargot au piment d'espelette
 							</div>
@@ -41,7 +45,7 @@
 								60€
 							</div>
 						</div>
-						<div class="blocmenu4__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Oeuf au plat assaisonné à la truffe sur lit de caviar
 							</div>
@@ -49,7 +53,7 @@
 								55€
 							</div>
 						</div>
-						<div class="blocmenu4__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Foie gras de canard mi-cuit et ses copeaux de truffe noire
 							</div>
@@ -62,13 +66,13 @@
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu4">
+					<h3>
 						<img class="hrmenu4" src="logos/hr_menu4.png" alt="frise">
-						<span class="h3menu4__underline">Oeuvre de maître</span>
-						<img class="hrmenu4__reverse" src="logos/hr_menu4.png" alt="frise">
+						<span class="h3__underline underline--4">Oeuvre de maître</span>
+						<img class="hrmenu4 reverse" src="logos/hr_menu4.png" alt="frise">
 					</h3>
-					<div  class="blocmenu4">
-						<div class="blocmenu4__plat">
+					<div  class="blocmenu">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Filet de boeuf aux herbes accompagné de sa ribambelle de légumes
 							</div>
@@ -76,7 +80,7 @@
 								70€
 							</div>
 						</div>
-						<div class="blocmenu4__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Parmentier de queue de boeuf à la truffe noire sur sa purée de panais
 							</div>
@@ -84,7 +88,7 @@
 								85€
 							</div>
 						</div>
-						<div class="blocmenu4__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Filet de Turbot aux agrumes
 							</div>
@@ -97,13 +101,13 @@
 			</section>
 			<section>
 				<div>
-					<h3 class="h3menu4">
+					<h3>
 						<img class="hrmenu4" src="logos/hr_menu4.png" alt="frise">
-						<span class="h3menu4__underline">Au sommet de l'art</span>
-						<img class="hrmenu4__reverse" src="logos/hr_menu4.png" alt="frise">
+						<span class="h3__underline underline--4">Au sommet de l'art</span>
+						<img class="hrmenu4 reverse" src="logos/hr_menu4.png" alt="frise">
 					</h3>
-					<div  class="blocmenu4">
-						<div class="blocmenu4__plat">
+					<div  class="blocmenu menu__dessert">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Paris-Brest revisité
 							</div>
@@ -111,7 +115,7 @@
 								55€
 							</div>
 						</div>
-						<div class="blocmenu4__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Macaron au chocolat d'exception et glace à la vanille de Madagascar
 							</div>
@@ -119,7 +123,7 @@
 								65€
 							</div>
 						</div>
-						<div class="blocmenu4__plat">
+						<div class="blocmenu__plat">
 							<div class="plat--texte">
 								Mousse au chocolat au piment d'espelette et à la truffe noire
 							</div>
@@ -131,7 +135,7 @@
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="petit">
 			<p class="btn">
 				<a class="mention" href="mentions.html" target="_blank">Mentions légales</a>
 			</p>

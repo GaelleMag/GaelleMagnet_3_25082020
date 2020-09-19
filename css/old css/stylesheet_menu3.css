@@ -1,0 +1,32 @@
+
+
+section
+{
+	margin-top: 1.5em;
+}
+
+.menu3
+{
+	background-color: rgb(237,239, 239);
+	padding-top: 1.5em;
+	font-family: 'Satisfy', cursive;
+	color: rgb(61, 19, 25);
+}
+
+
+
+.h3menu3
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+.reverse
+{
+	transform: rotateY(3.142rad);
+}
+
+.underline--3
+{
+	background:linear-gradient(to top, rgba(14, 63, 119, 0.5) 0%, rgba(6, 122, 207,0.5) 3px, transparent 3px) no-repeat;
+}
