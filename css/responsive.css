@@ -24,7 +24,7 @@
     margin-left: 0%;
   }
 .petit {
-  width:82%;
+  width:95%;
 }
 .footer2{
   width:95.7%;
@@ -37,11 +37,10 @@
     flex-wrap: wrap;
     font-size:1rem;
     margin-left: 0em;
-    
   }
-  .presentationmenu--menu1, .presentationmenu--menu2, .presentationmenu--menu3, .presentationmenu--menu4{
+  .presentationmenu__menu1, .presentationmenu__menu2, .presentationmenu__menu3, .presentationmenu__menu4{
     width:10.7em;
-    height:14em;
+    height:16em;
     text-align: center;
     margin: 0.5em;
     padding-top: 3em;
@@ -140,7 +139,7 @@
     justify-content: center;
   }
 
-  .presentationmenu--menu1, .presentationmenu--menu2, .presentationmenu--menu3, .presentationmenu--menu4
+  .presentationmenu__menu1, .presentationmenu__menu2, .presentationmenu__menu3, .presentationmenu__menu4
   {
     -webkit-box-shadow: 0px 0px 13px -1px #787478;
     box-shadow: 0px 0px 13px -1px #787478;

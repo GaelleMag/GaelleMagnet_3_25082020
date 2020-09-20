@@ -11,9 +11,9 @@ main
   height: 100%;
   position: relative;
 }
-h2{
+/*h2{
   font-family: 'Dosis', sans-serif;
-}
+}*/
 .font1{
   font-family: 'Rochester', cursive;
 }
@@ -32,7 +32,7 @@ h2{
   font-size: 1.7em;
 }
 
-.presentationmenu--menu1, .presentationmenu--menu2, .presentationmenu--menu3, .presentationmenu--menu4
+.presentationmenu__menu1, .presentationmenu__menu2, .presentationmenu__menu3, .presentationmenu__menu4
 {
   -webkit-box-shadow: 0px 0px 13px -1px #787478;
   box-shadow: 0px 0px 13px -1px #787478;
@@ -41,14 +41,14 @@ h2{
   text-align: center;
   padding-top: 6em;
 }
-.presentationmenu--menu1
+.presentationmenu__menu1
 {
   grid-column: 1;
   grid-row: 1;
   background-color: #fcdfdb;
   margin-top: 2em;
 }
-.presentationmenu--menu2
+.presentationmenu__menu2
 {
   grid-column: 2;
   grid-row: 1;
@@ -59,45 +59,42 @@ h2{
   margin-bottom: 6.5em;
   margin-right: 4em;
 }
-.presentationmenu--menu3, .presentationmenu--menu4{
+.presentationmenu__menu3, .presentationmenu__menu4{
   margin-top: 3em;
   margin-right: 4em;
 }
-.presentationmenu--menu3
+.presentationmenu__menu3
 {
   grid-column: 1;
   grid-row: 2;
   background-color: #f9f9f9;
   
 }
-.presentationmenu--menu4
+.presentationmenu__menu4
 {
   grid-column: 2;
   grid-row: 2;
   background-color: #fdfffd;
 }
-.carte{
-  margin: auto;
-}
-.carte1
+.presentationmenu__carte1
 {
   font-family: 'Satisfy', cursive;
   color: #3d1319;
   font-size:1.3em;
 }
-.carte2
+.presentationmenu__carte2
 {
   font-family: 'Noto Sans TC', sans-serif;
   font-size:1em;
   color: #c77412;
 }
-.carte3
+.presentationmenu__carte3
 {
   font-family: 'Satisfy', cursive;
   color: #0887fb;
   font-size:1.25em;
 }
-.carte4
+.presentationmenu__carte4
 {
   font-family: 'Kaushan Script', cursive;
   color: #4c9f42;
@@ -130,8 +127,6 @@ h2{
   border-radius: 1rem;
   font-size:0.7em;
 }
-
-
 
 /* -------------------------------- ANIMATIONS ----------------------------*/
 
@@ -170,18 +165,19 @@ h2{
 {
   background-color: rgb(252,223, 219);
   padding-top: 1.5em;
-  font-family: 'Satisfy', cursive;
   color: rgb(61, 19, 25);
-  }
+}
+  .menu1__font, .menu1{
+  font-family: 'Rochester', cursive;
+}
 .section1
 {
   align-items: center;
 }
+
 .fab.fa-itunes-note
 {
   background-image: -webkit-linear-gradient(left, indianred, lightcoral, orange);
-  /*padding-right: 3rem;*/
- /* margin-bottom: 4rem;*/
 }
 .logodebut{
   font-size: 4em;
@@ -191,12 +187,11 @@ h2{
   width:30%;
   padding-right: 1rem;
 }
-.underline--1
-{
-  background:linear-gradient(to top, rgba(61, 19, 25, 0.5) 0%, rgba(50, 28, 31,0.5) 3px, transparent 3px) no-repeat;
-}
 .logofin{
   margin-left: 30%;
+}
+.espacefin{
+  padding-right: 0.3em;
 }
 /* ------------------------------- menu2 ---------------------------------------- */
 section
@@ -213,10 +208,8 @@ section
   color: rgb(198, 116, 18);
 }
 
-}
-
 /* ---- Couleurs police -----*/
-{
+.color1{
   color: rgb(198, 116, 18);
 }
 
@@ -242,22 +235,12 @@ section
   transform-origin: 52% 58%;
 }
 
-.hr--orange
-{
-  background:rgb(197, 117, 41);
-}
-
-.hr--purple
-{
-  background: rgb(165, 103, 153);
-}
-
-.hr--blue
-{
-  background: rgb(110, 76, 204);
-}
 
 /* ---- soulignement ----*/
+.underline--1
+{
+  background:linear-gradient(to top, rgba(61, 19, 25, 0.5) 0%, rgba(50, 28, 31,0.5) 3px, transparent 3px) no-repeat;
+}
 .underline--21{
   background:linear-gradient(to top, rgba(198, 116, 18, 0.5) 0%, rgba(212, 118, 7,0.5) 3px, transparent 3px) no-repeat;
 }
@@ -280,12 +263,11 @@ section
 {
   background-color: rgb(237,239, 239);
   padding-top: 1.5em;
-  font-family: 'Satisfy', cursive;
   color: rgb(61, 19, 25);
 }
-
-
-
+.menu3, .degrademenu3{
+  font-family: 'Satisfy', cursive;
+  }
 .h3menu3
 {
   text-align: center;
@@ -312,7 +294,7 @@ footer
 .menu4
 {
   padding-top: 1.5em;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Kaushan Script', cursive;
   color: rgb(61, 19, 25);
 }
 

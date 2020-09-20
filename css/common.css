@@ -2,7 +2,6 @@
 header
 {
   background-color: #579c87;
-  color: #fdcb46;
   font-family: 'Noto Sans TC', sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -17,9 +16,11 @@ header
 a
 {
   text-decoration: none;
-  color: #fdcb46;
 }
-
+header, a
+{
+   color: #fdcb46;
+}
 /*------------------- body ------------------*/
 body
 {
@@ -39,6 +40,9 @@ section{
 .h2menu{
   font-size: 3em;
   text-align: center;
+}
+.presentationfont{
+  font-family: 'Kalam', cursive;
 }
 .degrade, .fab.fa-itunes-note{  
   -webkit-background-clip: text;
@@ -87,7 +91,21 @@ h3{
   margin-right: 1em;
 }
 
-/* ------------- souligner ------------------*/
+/* ------------- soulignement ------------------*/
+.underline--1
+{
+  background:linear-gradient(to top, rgba(61, 19, 25, 0.5) 0%, rgba(50, 28, 31,0.5) 3px, transparent 3px) no-repeat;
+}
+.underline--21{
+  background:linear-gradient(to top, rgba(198, 116, 18, 0.5) 0%, rgba(212, 118, 7,0.5) 3px, transparent 3px) no-repeat;
+}
+.underline--22{
+  background:linear-gradient(to top, rgba(165, 103, 153, 0.5) 0%, rgba(144, 58, 127,0.5) 3px, transparent 3px) no-repeat;
+}
+.underline--23{
+  background:linear-gradient(to top, rgba(110, 76, 204, 0.5) 0%, rgba(43, 15, 120,0.5) 3px, transparent 3px) no-repeat;
+}
+
 .h3__underline
 {
   background-size:0 100%;
@@ -96,39 +114,6 @@ h3{
 .h3__underline:hover
 {
   background-size: 100% 100%;
-}
-
-/* ------------------ & footer -------------- */
-footer
-{
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  justify-content: space-between;
-  background-color: #579c87;
-  font-family: 'Noto Sans TC', sans-serif;
-  width: 49.3%;
-  margin-left: 24.9%;
-  font-size: 1.4em;
-  padding-left: 1rem;
-  padding-right: 2rem;
-}
-.footer2{
-  width: 49.4%;
-}
-.legale{
-  margin-left: 0%;
-  width: 46.3%
-}
-.footer__mention
-{
-  text-align: start;
-  padding-left: 1rem;
-}
-
-.footer__contact
-{
-  display: inline;
 }
 /* ------ shake shake shake! shake your milkshake! ----- */
 .btn:hover
@@ -159,4 +144,33 @@ footer
   {
     transform: translate(4px, 0);
   }
-}a
+}
+/* ------------------ & footer -------------- */
+footer
+{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  background-color: #579c87;
+  font-family: 'Noto Sans TC', sans-serif;
+  width: 49.3%;
+  margin-left: 24.9%;
+  font-size: 1.4em;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+.legale{
+  margin-left: 0%;
+  width: 46.3%
+}
+.footer__mention
+{
+  text-align: start;
+  padding-left: 1rem;
+}
+
+.footer__contact
+{
+  display: inline;
+}
