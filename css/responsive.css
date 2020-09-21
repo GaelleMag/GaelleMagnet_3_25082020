@@ -168,7 +168,7 @@
   {
     width:40%;
     height:20em;
-    margin-top: 43em;
+    margin-top: 50em;
     margin-bottom: 21em;
     margin-left: 30%;
   }
@@ -177,7 +177,11 @@
   {
     font-size: 15em;
   }
-
+  .logofin{
+    margin-top: 3em;
+    margin-bottom: 5em;
+    font-size: 6em;
+  }
   .h2menu
   {
     font-size: 13em;
